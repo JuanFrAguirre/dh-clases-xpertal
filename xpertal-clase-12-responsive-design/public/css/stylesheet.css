@@ -1,0 +1,42 @@
+html {
+  font-family: "Roboto", sans-serif;
+}
+
+#titulo {
+  color: red;
+}
+
+.verde {
+  color: green;
+}
+
+.italica {
+  font-style: italic;
+}
+
+.purple {
+  color: indigo;
+}
+
+.paragraph {
+  background-color: aquamarine;
+  width: 100%;
+}
+
+@media (min-width: 700px) {
+  .paragraph {
+    background-color: red;
+  }
+}
+
+@media (min-width: 1200px) {
+  .paragraph {
+    background-color: indigo;
+  }
+}
+
+@media (min-width: 1480px) {
+  .paragraph {
+    background-color: green;
+  }
+}

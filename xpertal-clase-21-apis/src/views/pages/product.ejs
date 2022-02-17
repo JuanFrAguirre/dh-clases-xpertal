@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+  <%- include('../partials/head') %>
+  <body>
+    <%- include('../partials/header') %>
+    <main class="container">
+      <h1>Product</h1>
+      <% if (locals.product) { %>
+      <h5>ID del producto: <%= product.id %></h5>
+      <h4>Nombre del producto: <%= product.desc %></h4>
+      <% } else {%>
+      <h4><%= locals.message || '' %></h4>
+      <% } %> <%- include('../partials/footer') %>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <%- include('../partials/head') %>
+  <body>
+    <%- include('../partials/header') %>
+    <main>
+      <h1><%= locals.title %></h1>
+      <p class="eresMayorDeEdad"></p>
+    </main>
+    <%- include('../partials/footer') %>
+
+    <form action="/products">
+      <div>
+        <label for="username">Username</label>
+        <input type="text" id="username" name="username" />
+      </div>
+      <div>
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" />
+      </div>
+      <button>Enviar Datos</button>
+    </form>
+
+    <script defer src="/js/mayoriaDeEdad.js"></script>
+    <script defer src="/js/formData.js"></script>
+  </body>
+</html>

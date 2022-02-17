@@ -1,0 +1,9 @@
+<header>
+  <% if (locals.links) { %>
+  <nav>
+    <% links.forEach(link => { %>
+    <a href="<%= link.url %>"><%= link.title %> </a>
+    <% }) %>
+  </nav>
+  <% } %>
+</header>

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+  <%- include('../partials/head') %>
+  <body>
+    <%- include('../partials/header.ejs') %>
+    <h1>Contacto</h1>
+    <main>
+      <form action="/contacto" method="post">
+        <input type="text" name="username" />
+        <input type="password" name="password" />
+        <button class="send" type="button">Enviar</button>
+      </form>
+    </main>
+    <button class="reload">Reload</button>
+    <%- include('../partials/footer.ejs') %>
+    <script src="js/contacto.js"></script>
+  </body>
+</html>

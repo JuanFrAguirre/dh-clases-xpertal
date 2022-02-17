@@ -1,0 +1,27 @@
+.box__container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+  padding: 2rem;
+  background-color: green;
+  border: 1px solid #fff;
+  height: 700px;
+  flex-wrap: wrap;
+  column-gap: 2rem;
+  row-gap: 4rem;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: orange;
+  border: 1px solid #fff;
+  /* height: 10rem; */
+  width: 10rem;
+}
+
+.box3 {
+  align-self: start;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <%- include('../partials/head') %>
+  <body>
+    <%- include('../partials/header') %>
+    <main class="container">
+      <h1 class="redText"><%= locals.title || 'INDEX' %></h1>
+
+      <!-- Form -->
+
+      <form action="/contact">
+        <div class="errorsHTML"></div>
+        <div class="input--container">
+          <label for="username">Username</label>
+          <input type="text" id="username" name="username" />
+          <small id="usernameError"></small>
+        </div>
+
+        <div class="input--container">
+          <label for="password">Password</label>
+          <input type="password" id="password" name="password" />
+          <small id="passwordError"></small>
+        </div>
+
+        <div class="input--container">
+          <label for="email">Correo electronico</label>
+          <input type="email" id="email" name="email" />
+          <small id="emailError"></small>
+        </div>
+
+        <button>Enviar Datos</button>
+      </form>
+
+      <!-- / Form -->
+    </main>
+    <!-- <%- include('../partials/footer') %> -->
+
+    <script src="js/contact.js"></script>
+  </body>
+</html>

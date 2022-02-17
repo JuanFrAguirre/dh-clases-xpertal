@@ -1,0 +1,19 @@
+html {
+  font-family: "Roboto", sans-serif;
+}
+
+#titulo {
+  color: red;
+}
+
+.verde {
+  color: green;
+}
+
+.italica {
+  font-style: italic;
+}
+
+.purple {
+  color: indigo;
+}

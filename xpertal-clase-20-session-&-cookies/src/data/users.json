@@ -1,0 +1,46 @@
+[
+  {
+    "id": "23",
+    "username": "isaM",
+    "password": "superSecurePassword"
+  },
+  {
+    "id": "5",
+    "username": "andreaF",
+    "password": "superSecurePassword"
+  },
+  {
+    "id": "4",
+    "username": "aaronH",
+    "password": "superSecurePassword"
+  },
+  {
+    "id": "10",
+    "username": "diegoV",
+    "password": "superSecurePassword"
+  },
+  {
+    "username": "dilanR",
+    "password": "aaa111"
+  },
+  {
+    "username": "freddyR",
+    "password": "$2a$10$THA1dFSj3E1grtTRYb8ZgO6v6d/MXcxyHWJFnQ8h2b8rDUzk1Bs/6"
+  },
+  {
+    "username": "nahuelR",
+    "password": "$2a$10$cWoiObVBUgpepAMT.5xNJevSoKJffuntVbe90gKKejTC4jPU0RTsW"
+  },
+  {
+    "username": "naguive",
+    "password": "$2a$10$QTBK.o7mfnhLeT7KMagn/OWuXhz/CU8YybpsAMNF/zQL5EKNIPCFC"
+  },
+  {
+    "username": "noelG",
+    "password": "$2a$10$okh4Ez6RS8KNJmwYVBjIoexnBGGsK24qlGjj/YPqsZZiaf02qfgtO"
+  },
+  {
+    "username": "asd",
+    "password": "$2a$10$MaWvOwqndDqZal2vYrgk1uH56yF8ekRzMH2oWkxLgUZVjLMfAoRT6"
+  }
+]

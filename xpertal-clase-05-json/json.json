@@ -1,0 +1,32 @@
+{
+  "data": [
+    {
+      "nombre": "Juan",
+      "apellido": "Aguirre"
+    },
+    {
+      "nombre": "Aaron",
+      "apellido": "Hernandez"
+    },
+    {
+      "nombre": "Naguive",
+      "apellido": "Zantiago"
+    },
+    {
+      "nombre": "Dilan",
+      "apellido": "Reyes"
+    },
+    {
+      "nombre": "Diego",
+      "apellido": "Villarreal"
+    },
+    {
+      "nombre": "Martin",
+      "apellido": "Martinez"
+    },
+    {
+      "nombre": "Guillermo",
+      "apellido": "Anzures"
+    }
+  ]
+}
